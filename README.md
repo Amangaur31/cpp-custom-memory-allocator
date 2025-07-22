@@ -1,6 +1,3 @@
-# cpp-custom-memory-allocator
-An efficient custom memory allocator in C++ with block splitting and coalescing.
-
 # Custom Memory Allocator in C++
 
 This project is a custom memory allocator written in C++ that demonstrates efficient, low-level memory management. It serves as a replacement for the standard `malloc`/`free` or `new`/`delete` by managing a pre-allocated pool of memory.
