@@ -19,8 +19,11 @@ The core of this allocator is a **doubly linked list** that keeps track of all t
 This project is self-contained in `main.cpp`. You can compile and run it using a C++17 compliant compiler (like g++ or Clang).
 
 ```bash
-# Compile the program
-g++ -std=c++17 -o allocator main.cpp
+# Build the project using the Makefile
+make
 
 # Run the executable to see the test cases
 ./allocator
+
+# (Optional) Clean up the build artifacts
+make clean
